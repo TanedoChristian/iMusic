@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+
+li {
+    list-style: none;
+    
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.nav-container {
+    justify-content: space-around;
+    height: 10vh;
+    min-width: 100%;
+    background-color: var(--primary-color);
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.nav-list-container {
+    min-width: 40%;
+}
+
+.nav-ul {
+    justify-content: center;
+    max-height: 100%;
+    gap: 5rem;
+}
+
+.nav-list-container a{
+    color: var(--secondary-color);
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+
+.login-wrapper {
+    
+    
+    
+}
+
+.login-container {
+   
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    align-items: flex-end;
+   
+
+
+}
+
+.login-container form {
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+  
+}
+
+.login-container form input {
+    width: 60%;
+
+    
+
+}
+
+
+
+.logo {
+    color: white;
+    text-decoration: none;
+}
+
+.login-form input[type="submit"]{
+    border: none;
+    max-width: 30%;
+}
+
+.login-form input[type="submit"]:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    height: 1.5rem;
+   
+}
+
+
+input:focus {
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    outline: none;
+}
+
+
+input[type="submit"] {
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   height: 3rem;
+   padding: 12px;
+    
+}
+
+.banner-wrapper{
+    justify-content: center;
+    min-width: 100%;
+}
+
+.banner-wrapper {
+    height: 70vh;
+    margin-top: 1rem;
+    background: url('wallpaper.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
