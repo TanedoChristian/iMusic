@@ -15,6 +15,7 @@ class Header extends Component {
                             <li><a href=""> About us </a></li>
                             <li><a href=""> Contact us </a></li>
                             <li><a href="/login"> {this.props.isLogin} </a></li>
+                            <li><a href="/signup"> {this.props.isSignUp} </a></li>
                         </ul>
                     </div>
                 </div>
